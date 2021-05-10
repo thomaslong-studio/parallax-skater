@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Parallax Skater </title>
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+    <script src="skate-dude.js"></script>
+    <script src="character-animated.js"></script>
+
+    <style>
+        #gameCanvas {
+            border: solid 20px black;
+
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        body {
+            background-image: url("images/vinilowraw-1116098-unsplash%20copy%20copy.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: black; 
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 35%;
+        }
+    </style>
+</head>
+
+<body onload="init();">
+
+    <img src="images/Logo.png" alt="Logo" class="center">
+
+    <canvas id="gameCanvas" width="800" height="600">
+
+    </canvas>
+
+</body>
+
+</html>
